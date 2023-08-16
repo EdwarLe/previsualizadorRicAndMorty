@@ -1,7 +1,7 @@
 const CharactersCard = ({ image, name, country, url, handleUrl }) => {
   return (
     <div className="text-white grid grid-rows-[auto_auto] border-4 border-green-apple rounded-2xl w-full overflow-hidden place-items-center">
-      <div className="bg-black/70 border-b-2 border-green-apple h-[200px] w-full relative bg-red-wine">
+      <div className="bg-black/70 border-b-2 border-green-apple h-[200px] w-full relative">
         <a href={url} onClick={handleUrl}>
           <img
             className="hover:scale-110 transition-transform h-5/6 -mt-2 mx-auto min-[380px]:h-5/6"
