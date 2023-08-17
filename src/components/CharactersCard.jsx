@@ -9,12 +9,12 @@ const CharactersCard = ({ image, name, country, url, handleUrl }) => {
             alt=""
           />
         </a>
-        <div className="flex justify-between p-2">
+        <div className="flex justify-between items-end p-2">
           <div className="flex justify-center items-center gap-2">
             <div className="h-3 aspect-square bg-green-apple rounded-full animate-pulse"></div>
             <h5 className="">Alive</h5>
           </div>
-          <p>Click on Avatar</p>
+          <p className="text-sm">Click On Avatar</p>
         </div>
       </div>
       <article className="bg-black/70 w-full p-2 py-4 flex flex-col items-center gap-4">
